@@ -4,7 +4,7 @@ This repository provides a structured solution and verification environment for 
 
 [Program link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub)
 
-[Project description link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/257)
+[Project description link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/projects/Processor-in-the-Loop Automotive Controller on an Arm Cortex-M7 Fast Model Emulator)
 
 ## Project details
 This project is an implementation and verification setup for an Anti-Lock Braking System using MATLAB and Simulink. The core functionality is testing embedded code logic against a vehicle dynamic model. 
