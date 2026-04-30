@@ -4,7 +4,6 @@
 
 disp('Setting up project paths...');
 
-% Get the full path to the current directory
 projectRoot = fileparts(mfilename('fullpath'));
 
 % List of directories to add to the path
@@ -25,8 +24,5 @@ for i = 1:length(directoriesToAdd)
         warning(['Directory not found: ', dirPath]);
     end
 end
-
-% Save the path so it persists across sessions (optional)
-% savepath;
 
 disp('Project setup complete.');
