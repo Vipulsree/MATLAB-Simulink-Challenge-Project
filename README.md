@@ -1,4 +1,5 @@
-# Solution to MATLAB and Simulink Challenge project 257 - ARM/Simulink ABS (Anti-Lock Braking System)
+# Solution to MATLAB and Simulink Challenge project 
+# 257 -Processor-in-the-Loop Automotive Controller on an Arm Cortex-M7 Fast Model Emulator
 
 This repository provides a structured solution and verification environment for the Anti-Lock Braking System (ABS) Controller. It demonstrates Processor-in-the-Loop (PIL) and Model-in-the-Loop (MIL) testing workflows.
 
