@@ -93,6 +93,7 @@ fprintf('--- Phase B : Reporting ---\n\n');
 set(0,'DefaultFigureVisible','on')
 
 % ---------- FIG 1 : slip ratio per road ----------
+fprintf("Displaying Fig 1");
 f1 = figure('Name','Slip Ratio vs Time','Position',[80 80 1200 720]);
 for k = 1:3
     subplot(3,1,k); hold on; grid on;
@@ -110,6 +111,7 @@ sgtitle('MIL - ABS Slip Ratio (Dry / Wet / Ice)','FontSize',14,'FontWeight','bol
 drawnow; exportgraphics(f1,fullfile(results_dir,'fig1_slip_ratio.png'),'Resolution',120); close(f1);
 
 % ---------- FIG 2 : vehicle vs wheel speed ----------
+fprintf("Displaying Fig 2");
 f2 = figure('Name','Vehicle vs Wheel Speed','Position',[100 100 1200 720]);
 for k = 1:3
     subplot(3,1,k); hold on; grid on;
@@ -123,6 +125,7 @@ sgtitle('MIL - Vehicle vs Wheel Speed','FontSize',14,'FontWeight','bold');
 drawnow; exportgraphics(f2,fullfile(results_dir,'fig2_speed.png'),'Resolution',120); close(f2);
 
 % ---------- FIG 3 : stopping distance ----------
+fprintf("Displaying Fig 3");
 f3 = figure('Name','Stopping Distance','Position',[120 120 1100 620]);
 hold on; grid on;
 for k = 1:3
@@ -136,6 +139,7 @@ legend('Location','southeast'); set(gca,'FontSize',11);
 drawnow; exportgraphics(f3,fullfile(results_dir,'fig3_stopping_distance.png'),'Resolution',120); close(f3);
 
 % ---------- FIG 4 : ABS ON vs OFF ----------
+fprintf("Displaying Fig 4");
 f4 = figure('Name','ABS ON vs OFF','Position',[140 140 1300 820]);
 for k = 1:3
     subplot(3,2,2*k-1); hold on; grid on;
