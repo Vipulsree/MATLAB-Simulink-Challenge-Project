@@ -107,7 +107,7 @@ for k = 1:3
     xlabel('Time (s)'); ylabel('Slip ratio'); ylim([0 1]);
 end
 sgtitle('MIL - ABS Slip Ratio (Dry / Wet / Ice)','FontSize',14,'FontWeight','bold');
-drawnow; exportgraphics(f1,fullfile(results_dir,'fig1_slip_ratio.png'),'Resolution',120); pause(2); close(f1);
+drawnow; exportgraphics(f1,fullfile(results_dir,'fig1_slip_ratio.png'),'Resolution',120); close(f1);
 
 % ---------- FIG 2 : vehicle vs wheel speed ----------
 f2 = figure('Name','Vehicle vs Wheel Speed','Position',[100 100 1200 720]);

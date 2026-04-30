@@ -2,9 +2,7 @@
 
 This repository provides a structured solution and verification environment for the Anti-Lock Braking System (ABS) Controller. It demonstrates Processor-in-the-Loop (PIL) and Model-in-the-Loop (MIL) testing workflows.
 
-[Program link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub)
-
-[Project description link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/projects/Processor-in-the-Loop Automotive Controller on an Arm Cortex-M7 Fast Model Emulator)
+[Project description link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/projects/Processor-in-the-Loop-Automotive-Controller-on-an-Arm-Cortex-M7-Fast-Model-Emulator)
 
 ## Project details
 This project is an implementation and verification setup for an Anti-Lock Braking System using MATLAB and Simulink. The core functionality is testing embedded code logic against a vehicle dynamic model. 
